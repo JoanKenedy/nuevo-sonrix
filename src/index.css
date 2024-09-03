@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-x: hidden;
+}
+
+.swiper-button-next:active,
+.swiper-button-next::after {
+  color: white !important;
+  font-size: 28px;
+  font-weight: bold;
+  transform: translateX(40px);
+  transition: all 0.7s;
+}
+
+.swiper-button-prev::after,
+.swiper-button-prev:active {
+  color: white !important;
+  font-size: 25px;
+  font-weight: 700;
+  transform: translateX(-40px);
+  transition: all 0.7s;
+}
+.swiper:hover .swiper-button-next::after {
+  transition: all 0.7s;
+  transform: translateX(-40px);
+}
+.swiper:hover .swiper-button-prev::after {
+  transition: all 0.7s;
+  transform: translateX(0px);
+}
+.swiper-pagination-bullet {
+  background-color: white !important;
+  color: white;
+  width: 12px;
+  height: 12px;
+}
