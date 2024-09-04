@@ -60,6 +60,7 @@ export const Header = () => {
                   <a
                     href={data.link}
                     onClick={() => setIsOpenMenu(!isOpenMenu)}
+                    className="link"
                   >
                     {data.name}
                   </a>

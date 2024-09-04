@@ -39,7 +39,10 @@
 
 html {
   overflow-x: hidden;
-  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-family: "Poppins", system-ui, sans-serif;
+}
+body {
+  font-family: "Poppins", system-ui, sans-serif;
 }
 
 h2 {
@@ -49,8 +52,11 @@ h2 {
 }
 nav {
   background-color: rgba(0, 0, 0, 0.9);
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
 }
-
+.link {
+  font-family: "Poppins", system-ui, sans-serif;
+}
 .swiper-button-next:active,
 .swiper-button-next::after {
   color: white !important;
@@ -74,12 +80,10 @@ nav {
   width: 12px;
   height: 12px;
 }
-/*.frase {
-  animation-name: slow;
-  animation-duration: 1s;
-  animation-delay: 1s;
+.frase {
+  font-family: "Poppins", system-ui, sans-serif;
 }
-
+/*
 @keyframes slow {
   from {
     transform: translateY(100%);
