@@ -39,24 +39,19 @@
 
 html {
   overflow-x: hidden;
-  font-family: "Poppins", system-ui, sans-serif;
 }
 body {
-  font-family: "Poppins", system-ui, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
   font-weight: 600;
   text-shadow: 0em 0.1em 0.2em rgba(0, 0, 0, 0.4);
-  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
 }
 nav {
   background-color: rgba(0, 0, 0, 0.9);
-  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
 }
-.link {
-  font-family: "Poppins", system-ui, sans-serif;
-}
+
 .swiper-button-next:active,
 .swiper-button-next::after {
   color: white !important;
@@ -80,9 +75,7 @@ nav {
   width: 12px;
   height: 12px;
 }
-.frase {
-  font-family: "Poppins", system-ui, sans-serif;
-}
+
 /*
 @keyframes slow {
   from {
