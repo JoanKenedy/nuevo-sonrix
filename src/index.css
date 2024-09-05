@@ -39,19 +39,33 @@
 
 html {
   overflow-x: hidden;
+  padding: 0;
+  box-sizing: 0;
 }
 body {
   font-family: "Montserrat", sans-serif;
+  top: 0;
 }
 
 h2 {
   font-weight: 600;
   text-shadow: 0em 0.1em 0.2em rgba(0, 0, 0, 0.4);
 }
+.menu {
+  background-color: rgba(0, 0, 0, 0.6);
+}
 nav {
   background-color: rgba(0, 0, 0, 0.9);
 }
-
+.hero {
+  height: 100vh;
+  min-height: 100vh;
+  max-width: 100vh;
+  left: 0;
+}
+.swiper-container {
+  height: 100vh;
+}
 .swiper-button-next:active,
 .swiper-button-next::after {
   color: white !important;
@@ -109,16 +123,23 @@ nav {
   }
   .swiper:hover .swiper-button-next::after {
     transition: all 0.7s;
-    transform: translateX(0px);
+    transform: translateX(-20px);
   }
   .swiper:hover .swiper-button-prev::after {
     transition: all 0.7s;
     transform: translateX(0px);
+  }
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 20px;
   }
   .swiper-pagination-bullet {
     background-color: white !important;
     color: white;
     width: 12px;
     height: 12px;
+  }
+  .item-agenda {
+    box-shadow: 0px 10px 22px 12px rgba(0, 0, 0, 0.3);
   }
 }

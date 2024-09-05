@@ -8,6 +8,18 @@ import { FaWhatsappSquare } from "react-icons/fa";
 
 export const Header = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
+  const [isNavbar, setIsNavbar] = useState(false);
+  const handleNabvar = () => {
+    setIsNavbar(!isNavbar);
+  };
+  const navbarBackground = () => {
+    if (window.scrollY > 90) {
+      setIsNavbar(true);
+    } else {
+      setIsNavbar(false);
+    }
+  };
+  window.addEventListener("scroll", navbarBackground);
   const MENU = [
     {
       id: 1,
@@ -37,10 +49,14 @@ export const Header = () => {
   ];
   return (
     <>
-      <div className="menu bg-black w-screen fixed z-20 left-0 top-0">
-        <div className="container-menu px-7 py-1  md:max-w-7xl m-auto flex flex-row justify-between items-center md:justify-between md:px-8 ">
+      <div
+        className={`${
+          isNavbar ? "bg-black" : "menu"
+        }  w-screen fixed z-20 left-0 top-0 duration-700  `}
+      >
+        <div className="container-menu px-7 py-2 md:py-4  md:max-w-7xl m-auto flex flex-row justify-between items-center md:justify-between md:px-8 ">
           <div className="logo-menu">
-            <img src={Logo} alt="" className="w-20" />
+            <img src={Logo} alt="" className="w-32 md:w-44" />
           </div>
           <nav
             className={`${
@@ -51,10 +67,10 @@ export const Header = () => {
               className="absolute z-40 text-white top-8 right-8 font-semibold text-2xl md:hidden"
               onClick={() => setIsOpenMenu(!isOpenMenu)}
             />
-            <ul className="md:flex  justify-between">
+            <ul className="flex flex-col justify-between items-center md:flex-row">
               {MENU.map((data, index) => (
                 <li
-                  className="pt-14 text-white text-lg  md:pt-2 md:mx-5"
+                  className="pt-14 text-white text-base  md:pt-2 md:mx-5"
                   key={index}
                 >
                   <a
@@ -68,15 +84,15 @@ export const Header = () => {
               ))}
               <div className="redes-header flex justify-center items-center gap-5 pt-14 md:pt-2 md:ml-9 ">
                 <a href="">
-                  <FaInstagramSquare className="text-white text-2xl" />
+                  <FaInstagramSquare className="text-white text-2xl md:text-3xl" />
                 </a>
 
                 <a href="">
-                  <FaFacebook className="text-white text-2xl" />
+                  <FaFacebook className="text-white text-2xl md:text-3xl" />
                 </a>
 
                 <a href="">
-                  <FaWhatsappSquare className="text-white text-2xl" />
+                  <FaWhatsappSquare className="text-white text-2xl md:text-3xl" />
                 </a>
               </div>
             </ul>

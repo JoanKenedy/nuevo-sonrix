@@ -55,8 +55,8 @@ export const Hero = () => {
   ];
   return (
     <>
-      <div className="hero top-0">
-        <div className="container-slider-hero w-screen ">
+      <div className="hero ">
+        <div className="container-slider-hero ">
           <Swiper
             breakpoints={{
               320: {
@@ -75,22 +75,20 @@ export const Hero = () => {
             modules={[Navigation, Pagination, Mousewheel, Keyboard, EffectFade]}
             effect="fade"
             navigation={true}
-            className="h-full w-full  "
+            className="w-screen h-full"
           >
             {SliderHero.map((el, i) => (
-              <SwiperSlide key={i} className="relative ">
-                {width < mobile ? (
-                  <img src={el.imgCel} alt="" className=" " />
-                ) : (
-                  <img
-                    src={el.Img}
-                    alt=""
-                    className="md:h-[850px] w-full object-cover "
-                  />
-                )}
-
+              <SwiperSlide
+                key={i}
+                className=" swiper-container relative bg-cover  "
+                style={
+                  width < mobile
+                    ? { backgroundImage: `url(${el.imgCel})` }
+                    : { backgroundImage: `url(${el.Img})` }
+                }
+              >
                 <div className="phrase absolute left-0 top-0 w-full h-full flex justify-center items-end ">
-                  <div className="container-phrase mb-24 ">
+                  <div className="container-phrase mb-16  ">
                     <h2 className="text-white text-2xl  uppercase  md:text-5xl frase px-5">
                       {el.textimg}
                     </h2>
