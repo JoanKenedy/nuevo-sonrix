@@ -4,7 +4,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import Slider1 from "../../assets/slider-1.jpg";
 import Slider2 from "../../assets/slider-2.jpg";
-import Slider3 from "../../assets/slider-3.png";
+import Slider3 from "../../assets/slider-3.jpg";
 import Slider4 from "../../assets/slider-cel-1.png";
 import Slider5 from "../../assets/slider-cel-2.png";
 import Slider6 from "../../assets/slider-cel-3.png";
@@ -89,7 +89,7 @@ export const Hero = () => {
               >
                 <div className="phrase absolute left-0 top-0 w-full h-full flex justify-center items-end ">
                   <div className="container-phrase mb-16  ">
-                    <h2 className="text-white text-2xl  uppercase  md:text-5xl frase px-5">
+                    <h2 className="title-slider text-white text-2xl  uppercase  md:text-5xl frase px-5">
                       {el.textimg}
                     </h2>
                   </div>

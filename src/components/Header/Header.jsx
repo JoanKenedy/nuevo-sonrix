@@ -2,9 +2,9 @@ import { useState } from "react";
 import Logo from "../../assets/logo-dental-sonrix.png";
 import { RiCloseLargeLine } from "react-icons/ri";
 import { HiBars3BottomLeft } from "react-icons/hi2";
-import { FaInstagramSquare } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 
 export const Header = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -28,7 +28,7 @@ export const Header = () => {
     },
     {
       id: 2,
-      name: "Beneficios",
+      name: "Nosotros",
       link: "#beneficios",
     },
     {
@@ -38,13 +38,13 @@ export const Header = () => {
     },
     {
       id: 4,
-      name: "Academy",
-      link: "https://academy.dentarios.com.mx/",
+      name: "Testimonios",
+      link: "#testimonios",
     },
     {
       id: 5,
-      name: "Testimonios",
-      link: "#testimonios",
+      name: "Contacto",
+      link: "#contacto",
     },
   ];
   return (
@@ -54,9 +54,9 @@ export const Header = () => {
           isNavbar ? "bg-black" : "menu"
         }  w-screen fixed z-20 left-0 top-0 duration-700  `}
       >
-        <div className="container-menu px-7 py-2 md:py-4  md:max-w-7xl m-auto flex flex-row justify-between items-center md:justify-between md:px-8 ">
+        <div className="container-menu px-7 py-3 md:py-4  md:max-w-7xl m-auto flex flex-row justify-between items-center md:justify-between md:px-8 ">
           <div className="logo-menu">
-            <img src={Logo} alt="" className="w-32 md:w-44" />
+            <img src={Logo} alt="" className="w-36 md:w-44" />
           </div>
           <nav
             className={`${
@@ -84,15 +84,14 @@ export const Header = () => {
               ))}
               <div className="redes-header flex justify-center items-center gap-5 pt-14 md:pt-2 md:ml-9 ">
                 <a href="">
-                  <FaInstagramSquare className="text-white text-2xl md:text-3xl" />
-                </a>
-
-                <a href="">
                   <FaFacebook className="text-white text-2xl md:text-3xl" />
                 </a>
 
                 <a href="">
                   <FaWhatsappSquare className="text-white text-2xl md:text-3xl" />
+                </a>
+                <a href="">
+                  <FaTiktok className="text-white text-2xl md:text-3xl" />
                 </a>
               </div>
             </ul>
