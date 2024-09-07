@@ -24,12 +24,12 @@ export const Header = () => {
     {
       id: 1,
       name: "Inicio",
-      link: "#inicio",
+      link: "/",
     },
     {
       id: 2,
       name: "Nosotros",
-      link: "#beneficios",
+      link: "/nosotros",
     },
     {
       id: 3,

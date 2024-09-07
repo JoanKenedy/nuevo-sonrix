@@ -1,6 +1,5 @@
 import { useForm } from "react-hook-form";
 import Map from "react-map-gl";
-import Servicio1 from "../assets/odongral.jpg";
 
 export const Contacto = () => {
   return (

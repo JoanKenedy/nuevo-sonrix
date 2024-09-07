@@ -120,6 +120,13 @@ input {
   }
 }*/
 
+.img-instalacion {
+  transition: all 1s ease-out;
+}
+.img-instalacion:hover {
+  transition: all 1s ease-in;
+}
+
 @media (min-width: 768px) {
   nav {
     background-color: transparent;
