@@ -15,7 +15,7 @@ const router = createHashRouter([
       },
       {
         index: false,
-        path: "/nosotros",
+        path: "/#nosotros",
         element: <Nosotros />,
       },
     ],
