@@ -1,7 +1,13 @@
+import { Contacto } from "../components/Contacto";
+import { Hero } from "../components/Testimonios/Header";
+import { Testimonials } from "../components/Testimonios/Testimonials";
+
 export const Testimonios = () => {
   return (
     <>
-      <h2>Estas en la pagina de testimonios</h2>
+      <Hero />
+      <Testimonials />
+      <Contacto />
     </>
   );
 };
