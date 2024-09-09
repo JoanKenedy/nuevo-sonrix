@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Logo from "../../assets/logo-dental-sonrix.png";
 import { RiCloseLargeLine } from "react-icons/ri";
 import { HiBars3BottomLeft } from "react-icons/hi2";
 import { FaFacebook } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
+import { LiaLinkedin } from "react-icons/lia";
 
 export const Header = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -39,7 +41,7 @@ export const Header = () => {
     {
       id: 4,
       name: "Testimonios",
-      link: "#testimonios",
+      link: "/testimonios",
     },
     {
       id: 5,
@@ -73,13 +75,13 @@ export const Header = () => {
                   className="pt-14 text-white text-base  md:pt-2 md:mx-5"
                   key={index}
                 >
-                  <a
-                    href={data.link}
+                  <Link
+                    to={data.link}
                     onClick={() => setIsOpenMenu(!isOpenMenu)}
                     className="link"
                   >
                     {data.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
               <div className="redes-header flex justify-center items-center gap-5 pt-14 md:pt-2 md:ml-9 ">

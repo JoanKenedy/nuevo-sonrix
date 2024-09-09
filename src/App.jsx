@@ -1,9 +1,10 @@
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { PrincipalLayout } from "./layouts/PrincipalLayout";
 import { Home } from "./pages/Home";
 import { Nosotros } from "./pages/Nosotros";
 import "./App.css";
-const router = createHashRouter([
+import { Testimonios } from "./pages/Testimonios";
+const router = createBrowserRouter([
   {
     path: "/",
     element: <PrincipalLayout />,
@@ -15,8 +16,12 @@ const router = createHashRouter([
       },
       {
         index: false,
-        path: "/#nosotros",
+        path: "/nosotros",
         element: <Nosotros />,
+      },
+      {
+        path: "/testimonios",
+        element: <Testimonios />,
       },
     ],
   },
