@@ -5,7 +5,7 @@ export const Contacto = () => {
   return (
     <>
       <div className="contacto bg-black">
-        <div className="container-contacto flex flex-col gap-10 p-7 md:grid md:grid-cols-2 md:max-w-7xl md:m-auto md:gap-10 md:py-10 md:px-5 ">
+        <div className="container-contacto flex flex-col gap-10 px-7 pt-40 pb-10 md:grid md:grid-cols-2 md:max-w-7xl md:mx-auto  md:gap-10 md:pt-60 md:mt-10 md:pb-10 md:px-5 ">
           <div className="item-contacto">
             <form
               action=""

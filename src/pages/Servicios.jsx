@@ -1,13 +1,13 @@
+import { Hero } from "../components/Servicios/Hero";
+import { Servicies } from "../components/Home/Servicies";
 import { Contacto } from "../components/Contacto";
-import { Hero } from "../components/Testimonios/Header";
-import { Testimonials } from "../components/Testimonios/Testimonials";
 import { CallToAction } from "../components/CallToAction";
 
-export const Testimonios = () => {
+export const Servicios = () => {
   return (
     <>
       <Hero />
-      <Testimonials />
+      <Servicies />
       <CallToAction />
       <Contacto />
     </>

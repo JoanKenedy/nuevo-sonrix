@@ -4,7 +4,7 @@ import { MdOutlineAutoAwesome } from "react-icons/md";
 export const CallToAction = () => {
   return (
     <>
-      <section className="call-to-action  z-10 m-auto flex justify-center items-center  -mb-32 w-full px-5 py-9 mt-14 md:max-w-7xl rounded-md md:pb-24 md:mt-32 md:-mb-0 relative ">
+      <section className="call-to-action  z-10 m-auto flex justify-center items-center  -mb-32 w-full px-5 py-0 mt-10 md:max-w-7xl rounded-md md:pb-24 md:mt-20 md:-mb-0 relative ">
         <div className="container-call-to-action justify-between max-w-6xl  rounded-md md:flex md:absolute md:z-10 bg-blue-500 md:left-0 md:-top-0 md:w-full md:h-80 md:max-w-7xl  ">
           <div className="item-call-action mb-5 relative md:w-6/12 md:-mt-20 ">
             <img src={ImgCall} alt="" className="imgCall  " />

@@ -3,6 +3,7 @@ import { Hero } from "../components/Nosotros/Hero";
 import { Contacto } from "../components/Contacto";
 import { Parrallax } from "../components/Nosotros/Parallax";
 import { Team } from "../components/Nosotros/Team";
+import { CallToAction } from "../components/CallToAction";
 
 export const Nosotros = () => {
   return (
@@ -11,6 +12,7 @@ export const Nosotros = () => {
       <Fundadores />
       <Parrallax />
       <Team />
+      <CallToAction />
       <Contacto />
     </>
   );

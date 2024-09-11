@@ -4,6 +4,7 @@ import { AgendarCita } from "../components/Home/AgendarCita";
 import { Hero } from "../components/Home/Hero";
 import { Instalaciones } from "../components/Home/Instalaciones";
 import { Servicies } from "../components/Home/Servicies";
+import { CallToAction } from "../components/CallToAction";
 
 export const Home = () => {
   return (
@@ -13,6 +14,7 @@ export const Home = () => {
       <AgendarCita />
       <Servicies />
       <Instalaciones />
+      <CallToAction />
       <Contacto />
     </>
   );

@@ -6,7 +6,6 @@ import { HiBars3BottomLeft } from "react-icons/hi2";
 import { FaFacebook } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
-import { LiaLinkedin } from "react-icons/lia";
 
 export const Header = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -36,7 +35,7 @@ export const Header = () => {
     {
       id: 3,
       name: "Servicios",
-      link: "#servicios",
+      link: "/servicios",
     },
     {
       id: 4,
