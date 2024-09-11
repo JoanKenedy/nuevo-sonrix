@@ -1,8 +1,8 @@
 import { SuperDescripcion } from "../SuperDescripcion";
 export const Descripcion = () => {
-  const title = "¿Ques es la Cirugía dental?";
+  const title = "¿Ques es la Periodoncia?";
   const description =
-    "Se emplea en aquellos casos en los que, por ejemplo, se necesita realizar una elevación del seno maxilar o para promover la regeneración ósea. También cuando se llevan a cabo extracciones complejas o cirugías de la encía.";
+    "Es la encargada del estudio, prevención y tratamiento de aquellas patologías que afectan a los tejidos que protegen, rodean y sujetan los dientes: encía, hueso alveolar, ligamento periodontal y cemento radicular.";
   return (
     <>
       <SuperDescripcion title={title} texto={description} />

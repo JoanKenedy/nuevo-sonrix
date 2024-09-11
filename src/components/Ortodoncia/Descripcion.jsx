@@ -1,8 +1,8 @@
 import { SuperDescripcion } from "../SuperDescripcion";
 export const Descripcion = () => {
-  const title = "¿Ques es la Cirugía dental?";
+  const title = "¿Ques es la Ortodoncia?";
   const description =
-    "Se emplea en aquellos casos en los que, por ejemplo, se necesita realizar una elevación del seno maxilar o para promover la regeneración ósea. También cuando se llevan a cabo extracciones complejas o cirugías de la encía.";
+    "Corrige los defectos de la posición dental para mantener una boca perfecta y sana. En Dental Sonrix, somos especialistas en ortodoncia y realizamos diferentes tipos de tratamientos para adaptarnos a tus necesidades.";
   return (
     <>
       <SuperDescripcion title={title} texto={description} />

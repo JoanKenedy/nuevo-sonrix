@@ -1,11 +1,10 @@
 import { SuperDescripcion } from "../SuperDescripcion";
 export const Descripcion = () => {
-  const title = "¿Ques es la Cirugía dental?";
   const description =
-    "Se emplea en aquellos casos en los que, por ejemplo, se necesita realizar una elevación del seno maxilar o para promover la regeneración ósea. También cuando se llevan a cabo extracciones complejas o cirugías de la encía.";
+    "Un candidato para la estética restauradora, primero debe agendar una cita general para formular un plan de tratamiento y lograr el resultado deseado. En Dental Sonrix, es nuestro enfoque dinámico e innovador en el manejo de la estética dental, el que nos diferencia de los demás.";
   return (
     <>
-      <SuperDescripcion title={title} texto={description} />
+      <SuperDescripcion texto={description} />
     </>
   );
 };

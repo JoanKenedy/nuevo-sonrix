@@ -45,7 +45,7 @@ export const Testimonials = () => {
         <div className="container-testimonials max-w-6xl p-4 grid gap-4 md:m-auto">
           {TESTIMONIOS.map((testimonio, i) => (
             <div
-              className="item-testimonials my-5 flex flex-col gap-2 cursor-pointer md:px-10 md:gap-3 relative bg-slate-50 p-3 rounded-md shadow-sm shadow-gray-300"
+              className="item-testimonials my-5 flex flex-col gap-2 cursor-pointer  md:px-10 md:gap-3 relative p-3 rounded-md shadow-lg shadow-gray-300"
               key={i}
             >
               <FaQuoteLeft className="absolute right-7 top-0  text-3xl md:text-5xl text-slate-300 " />

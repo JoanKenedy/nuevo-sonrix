@@ -1,8 +1,8 @@
 import { SuperDescripcion } from "../SuperDescripcion";
 export const Descripcion = () => {
-  const title = "¿Ques es la Cirugía dental?";
+  const title = "¿Ques es uan endodoncia?";
   const description =
-    "Se emplea en aquellos casos en los que, por ejemplo, se necesita realizar una elevación del seno maxilar o para promover la regeneración ósea. También cuando se llevan a cabo extracciones complejas o cirugías de la encía.";
+    "Es un procedimiento que tiene como finalidad preservar las piezas dentales dañadas, evitando su pérdida. Para ello, se extrae la pulpa dental y la cavidad resultante, se rellena y sella con material inerte y biocompatible.";
   return (
     <>
       <SuperDescripcion title={title} texto={description} />

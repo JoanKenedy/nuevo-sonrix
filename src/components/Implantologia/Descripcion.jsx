@@ -1,8 +1,8 @@
 import { SuperDescripcion } from "../SuperDescripcion";
 export const Descripcion = () => {
-  const title = "¿Ques es la Cirugía dental?";
+  const title = "¿Ques es la Implantología?";
   const description =
-    "Se emplea en aquellos casos en los que, por ejemplo, se necesita realizar una elevación del seno maxilar o para promover la regeneración ósea. También cuando se llevan a cabo extracciones complejas o cirugías de la encía.";
+    "Es la disciplina encargada del reemplazo de las piezas dentales perdidas mediante la colocación quirúrgica de un aditamento intraóseo (implante dental) y un aditamento protésico (corona, puente o prótesis), tanto en el maxilar como en la mandíbula.";
   return (
     <>
       <SuperDescripcion title={title} texto={description} />

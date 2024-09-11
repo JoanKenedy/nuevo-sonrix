@@ -1,5 +1,5 @@
-import Slider1 from "../../assets/testimonio.jpg";
-import Slider4 from "../../assets/testimonio-cel.jpg";
+import Slider1 from "../../assets/testimonio.webp";
+import Slider4 from "../../assets/testimonio-cel.webp";
 import { SuperHero } from "../SuperHero";
 
 export const Hero = () => {

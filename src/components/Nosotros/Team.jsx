@@ -1,9 +1,9 @@
-import Team1 from "../../assets/team-one.jpg";
-import Team2 from "../../assets/team-1.jpg";
-import Team3 from "../../assets/team-2.jpg";
-import Team4 from "../../assets/team-3.jpg";
-import Team5 from "../../assets/team-4.jpg";
-import Team6 from "../../assets/team-5.jpg";
+import Team1 from "../../assets/team-one.webp";
+import Team2 from "../../assets/team-1.webp";
+import Team3 from "../../assets/team-2.webp";
+import Team4 from "../../assets/team-3.webp";
+import Team5 from "../../assets/team-4.webp";
+import Team6 from "../../assets/team-5.webp";
 export const Team = () => {
   const EQUIPO = [
     {
