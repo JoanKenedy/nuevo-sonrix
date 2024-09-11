@@ -1,5 +1,5 @@
 import Slider1 from "../../assets/abouts.jpg";
-import Slider4 from "../../assets/slider-cel-1.webp";
+import Slider4 from "../../assets/nosotros-cel.webp";
 
 import { SuperHero } from "../SuperHero";
 export const Hero = () => {
