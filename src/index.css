@@ -218,6 +218,9 @@ input {
     transform: scale(0);
   }
 }
+.modal-contacto {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
 @media (min-width: 768px) {
   nav {

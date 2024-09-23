@@ -2,11 +2,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
-import Slider1 from "../../assets/slider-1.webp";
-import Slider2 from "../../assets/slider-2.webp";
+import Slider1 from "../../assets/slider-2.webp";
+import Slider2 from "../../assets/slider-1.webp";
 import Slider3 from "../../assets/slider-3.webp";
-import Slider4 from "../../assets/slider-cel-1.webp";
-import Slider5 from "../../assets/slider-cel-2.webp";
+import Slider4 from "../../assets/slider-cel-2.webp";
+import Slider5 from "../../assets/slider-cel-1.webp";
 import Slider6 from "../../assets/slider-cel-3.webp";
 
 import { Swiper, SwiperSlide } from "swiper/react";

@@ -71,7 +71,7 @@ export const Servicies = () => {
         <div className="container-servicios grid grid-rows-8 gap-4 md:grid-cols-3 my-5  md:max-w-7xl md:m-auto md:gap-5 md:grid-rows-3 md:my-4">
           {Servicios.map((servicio, i) => (
             <Link to={servicio.link}>
-              <div className="item-servicios" key={i}>
+              <div className="item-servicios bre" key={i}>
                 <img
                   src={servicio.imgSrc}
                   alt=""
