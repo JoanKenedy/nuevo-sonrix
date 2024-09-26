@@ -5,7 +5,6 @@ import { Hero } from "../components/Home/Hero";
 import { Instalaciones } from "../components/Home/Instalaciones";
 import { Servicies } from "../components/Home/Servicies";
 import { CallToAction } from "../components/CallToAction";
-import { ButtonFixed } from "../components/ButtonsFixed";
 
 export const Home = () => {
   return (
@@ -17,7 +16,6 @@ export const Home = () => {
       <Instalaciones />
       <CallToAction />
       <Contacto />
-      <ButtonFixed />
     </>
   );
 };
