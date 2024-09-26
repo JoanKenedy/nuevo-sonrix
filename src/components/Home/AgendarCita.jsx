@@ -10,7 +10,7 @@ export const AgendarCita = () => {
 
   return (
     <>
-      <div className="agenda w-full relative md:mt-32 md:h-64 ">
+      <div className="agenda w-full overflow-x-hidden relative md:mt-32 md:h-64 ">
         <div className="container-agenda flex flex-col gap-5  p-8  rounded-md md:grid md:grid-cols-3 md:max-w-6xl md:m-auto relative  ">
           <div
             className="item-agenda bg-white flex justify-center flex-col gap-2 items-center px-8 py-4 rounded-md md:absolute md:w-[350px] md:h-[250px]  md:-top-20 md:left-0 md:hover:scale-110 md:duration-500  "

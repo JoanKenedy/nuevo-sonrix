@@ -27,7 +27,7 @@ export const ButtonFixed = () => {
     };
   }, [handleNavigation]);
   return (
-    <div className={`container-fixed animado ${show ? "show" : ""}`}>
+    <div className={`container-fixed  animado ${show ? "show" : ""}`}>
       <div className="tel-fixed">
         <a href="tel:5652700762" target="_blank" rel="noopener noreferrer">
           <img src={tel} alt="Icono Teléfono" />
