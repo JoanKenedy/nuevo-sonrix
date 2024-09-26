@@ -1,4 +1,4 @@
-import Slider1 from "../../assets/nosotros-compu.jpg";
+import Slider1 from "../../assets/nosotros-compu.webp";
 import Slider4 from "../../assets/nosotros-cel.webp";
 
 import { SuperHero } from "../SuperHero";
