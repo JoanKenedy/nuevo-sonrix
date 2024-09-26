@@ -4,6 +4,7 @@ import { Contacto } from "../components/Contacto";
 import { Parrallax } from "../components/Nosotros/Parallax";
 import { Team } from "../components/Nosotros/Team";
 import { CallToAction } from "../components/CallToAction";
+import { ButtonFixed } from "../components/ButtonsFixed";
 
 export const Nosotros = () => {
   return (
@@ -14,6 +15,7 @@ export const Nosotros = () => {
       <Team />
       <CallToAction />
       <Contacto />
+      <ButtonFixed />
     </>
   );
 };
