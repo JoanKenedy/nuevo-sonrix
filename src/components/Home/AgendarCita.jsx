@@ -45,7 +45,7 @@ export const AgendarCita = () => {
         <div
           className={`${
             isOpenModal ? "scale-100" : "scale-0"
-          } modal-contacto fixed w-full h-full flex justify-center items-center z-30 left-0 top-0 duration-700`}
+          } modal-contacto duration-700`}
         >
           <RiCloseLargeLine
             className="absolute z-30 text-white top-4 right-4 font-semibold text-2xl md:top-4 "
