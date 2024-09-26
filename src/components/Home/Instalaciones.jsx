@@ -1,8 +1,10 @@
-import Instalacion1 from "../../assets/instalacion-3.webp";
-import Instalacion2 from "../../assets/instalacion-4.webp";
-import Instalacion3 from "../../assets/instalacion-1.webp";
-import Instalacion4 from "../../assets/instalacion-2.webp";
-import Instalacion5 from "../../assets/instalacion-5.webp";
+import Instalacion1 from "../../assets/instalacion-3.jpg";
+import Instalacion2 from "../../assets/instalacion-4.jpg";
+import Instalacion3 from "../../assets/instalacion-1.jpg";
+import Instalacion4 from "../../assets/instalacion-2.jpg";
+import Instalacion5 from "../../assets/instalacion-7.jpg";
+import Instalacion6 from "../../assets/instalacion-6.jpg";
+import Instalacion7 from "../../assets/instalacion-8.jpg";
 
 export const Instalaciones = () => {
   const Instalaciones = [
@@ -18,7 +20,7 @@ export const Instalaciones = () => {
     },
     {
       id: 3,
-      src: Instalacion2,
+      src: Instalacion6,
       alt: "Instalación numero 3",
     },
     {
@@ -38,12 +40,12 @@ export const Instalaciones = () => {
     },
     {
       id: 7,
-      src: Instalacion4,
+      src: Instalacion7,
       alt: "Instalación numero 3",
     },
     {
       id: 8,
-      src: Instalacion5,
+      src: Instalacion4,
       alt: "Instalación numero 4",
     },
     {

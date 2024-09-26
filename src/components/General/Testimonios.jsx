@@ -1,52 +1,33 @@
-import Ortodoncia1 from "../../assets/general/blaqueamiento-1.webp";
-import Ortodoncia2 from "../../assets/general/blanqueamiento-1.2.webp";
-import Ortodoncia3 from "../../assets/general/desmanchar-1.webp";
-import Ortodoncia4 from "../../assets/general/desmanchar-1.2.webp";
-import Ortodoncia5 from "../../assets/general/desmanchar-2.1.webp";
-import Ortodoncia6 from "../../assets/general/desmachar-2.2.webp";
-import Ortodoncia7 from "../../assets/general/desmanchar-3.webp";
-import Ortodoncia8 from "../../assets/general/desmanchar-3.2.webp";
+import Ortodoncia1 from "../../assets/blanqueamiento/caso-1.png";
+import Ortodoncia2 from "../../assets/desmanchamiento/caso-1.png";
+import Ortodoncia3 from "../../assets/desmanchamiento/caso-2.png";
+import Ortodoncia4 from "../../assets/desmanchamiento/caso-3.png";
+
 export const Testimonios = () => {
   const CASO1 = [
     {
       id: 1,
       image: Ortodoncia1,
-      alt: "Primer caso de éxito",
+      alt: "Caso 1 ",
+      title: "Blanqueamiento",
     },
     {
       id: 2,
       image: Ortodoncia2,
-      alt: "Primer caso de éxito",
+      alt: "Caso 1  ",
+      title: "Desmanchamiento",
     },
     {
       id: 3,
       image: Ortodoncia3,
-      alt: "Primer caso de éxito",
+      alt: "Caso 2",
+      title: "Desmanchamiento",
     },
     {
       id: 4,
       image: Ortodoncia4,
-      alt: "Primer caso de éxito",
-    },
-    {
-      id: 5,
-      image: Ortodoncia5,
-      alt: "Primer caso de éxito",
-    },
-    {
-      id: 6,
-      image: Ortodoncia6,
-      alt: "Primer caso de éxito",
-    },
-    {
-      id: 7,
-      image: Ortodoncia7,
-      alt: "Primer caso de éxito",
-    },
-    {
-      id: 8,
-      image: Ortodoncia8,
-      alt: "Primer caso de éxito",
+      alt: "Caso 3",
+      title: "Desmanchamiento",
     },
   ];
   return (
@@ -57,9 +38,13 @@ export const Testimonios = () => {
             <h3 className="title-slider text-center text-2xl  uppercase  md:text-3xl  px-5">
               Nuestro Trabajo
             </h3>
-            <div className="casos grid gap-2 md:grid-cols-4 ">
+            <div className="casos grid gap-2 mt-4 md:grid-cols-4 ">
               {CASO1.map((caso, index) => (
                 <div className="item-casos" key={index}>
+                  <h3 className="text-center uppercase font-semibold">
+                    {caso.title}
+                  </h3>
+                  <span className="">{caso.alt}</span>
                   <img
                     src={caso.image}
                     alt={caso.alt}

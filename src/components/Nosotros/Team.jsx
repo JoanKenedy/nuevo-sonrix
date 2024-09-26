@@ -3,6 +3,8 @@ import Team3 from "../../assets/team-2.webp";
 import Team4 from "../../assets/team-3.webp";
 import Team5 from "../../assets/team-4.webp";
 import Team6 from "../../assets/team-5.webp";
+import Team7 from "../../assets/team-6.webp";
+import Team8 from "../../assets/team-7.webp";
 export const Team = () => {
   const EQUIPO = [
     {
@@ -35,6 +37,18 @@ export const Team = () => {
       alt: "Ricardo Rosales",
       especialidad: "Cirujano Bucal",
     },
+    {
+      id: 5,
+      doctor: Team7,
+      alt: "Daniela Cerpa",
+      especialidad: "Odontopediatra",
+    },
+    {
+      id: 5,
+      doctor: Team8,
+      alt: "Daniela Nava",
+      especialidad: "Ortodoncista",
+    },
   ];
   return (
     <>
@@ -42,7 +56,7 @@ export const Team = () => {
         <h2 className="title-slider text-center text-black text-xl  uppercase  md:text-3xl frase my-2">
           Nuestro equipo
         </h2>
-        <div className="container-team grid gap-4 md:grid-cols-3  md:m-auto md:gap-5 md:max-w-6xl">
+        <div className="container-team grid gap-4 md:grid-cols-4  md:m-auto md:gap-5 md:max-w-6xl">
           {EQUIPO.map((team, index) => (
             <div className="item-team overflow-hidden relative" key={index}>
               <img
