@@ -126,9 +126,6 @@ input {
 .img-instalacion:hover {
   transition: all 1s ease-in;
 }
-.item-testimonials {
-  background-color: rgb(248 240 243);
-}
 
 .urgencias-fixed {
   width: 60px;
