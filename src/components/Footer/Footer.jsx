@@ -1,4 +1,4 @@
-import Logo from "../../assets/logo-dental-sonrix.png";
+import Logo from "../../assets/2-logo.png";
 import { FaFacebook } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
@@ -80,20 +80,23 @@ export const Footer = () => {
       <footer className="footer w-full  h-auto relative m-auto ">
         <div className="container-footer max-w-7xl  flex flex-col justify-start gap-3 w-11/12  m-auto pt-10 md:grid md:grid-cols-4  md:pb-3 md:pt-20 ">
           <div className="item-footer flex flex-col gap-4 ">
-            <img src={Logo} alt="" className="max-w-52" />
+            <img src={Logo} alt="" className="max-w-40" />
             <p className="text-white text-sm">
               Brindamos soluciones personalizadas adaptadas a las necesidades y
               objetivos únicos de nuestros clientes.
             </p>
             <div className="link-redes-foote flex gap-3">
-              <a href="">
+              <a
+                href="https://www.facebook.com/dentalsonrix.mx/"
+                target="_blank"
+              >
                 <FaFacebook className="text-xl text-white" />
               </a>
-              <a href="">
+              <a
+                href="https://api.whatsapp.com/send?phone=525652700762"
+                target="_blank"
+              >
                 <FaWhatsappSquare className="text-xl text-white" />
-              </a>
-              <a href="">
-                <FaTiktok className="text-xl text-white" />
               </a>
             </div>
           </div>

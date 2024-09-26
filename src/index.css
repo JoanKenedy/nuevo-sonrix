@@ -221,6 +221,12 @@ input {
 .modal-contacto {
   background-color: rgba(0, 0, 0, 0.8);
 }
+.logo-1 {
+  max-width: 100%;
+  height: auto;
+  width: 60px;
+  object-fit: cover;
+}
 
 @media (min-width: 768px) {
   nav {

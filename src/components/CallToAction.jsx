@@ -18,7 +18,8 @@ export const CallToAction = () => {
               Hacemos que tu sonrisa sea hermosa y brille por si sola.
             </p>
             <a
-              href=""
+              href="https://api.whatsapp.com/send?phone=525652700762"
+              target="_blank"
               className="bg-white text-black text-center inline-block rounded-xl transition hover:scale-90 w-36 py-2 text-base md:py-2 md:w-40"
             >
               Contacto

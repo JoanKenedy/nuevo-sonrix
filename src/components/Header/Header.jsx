@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/logo-dental-sonrix.png";
+import Logo1 from "../../assets/1-logo.png";
+import Logo2 from "../../assets/2-logo.png";
 import { RiCloseLargeLine } from "react-icons/ri";
 import { HiBars3BottomLeft } from "react-icons/hi2";
 import { FaFacebook } from "react-icons/fa";
@@ -56,8 +57,9 @@ export const Header = () => {
         }  w-screen fixed z-20 left-0 top-0 duration-700  `}
       >
         <div className="container-menu px-7 py-3 md:py-4  md:max-w-7xl m-auto flex flex-row justify-between items-center md:justify-between md:px-8 ">
-          <div className="logo-menu">
-            <img src={Logo} alt="" className="w-36 md:w-44" />
+          <div className="logo-menu flex justify-center items-center">
+            <img src={Logo1} alt="" className="w-15 logo-1" />{" "}
+            <img src={Logo2} alt="" className="w-36 md:w-44" />
           </div>
           <nav
             className={`${
@@ -84,15 +86,18 @@ export const Header = () => {
                 </li>
               ))}
               <div className="redes-header flex justify-center items-center gap-5 pt-14 md:pt-2 md:ml-9 ">
-                <a href="">
+                <a
+                  href="https://www.facebook.com/dentalsonrix.mx/"
+                  target="_blank"
+                >
                   <FaFacebook className="text-white text-2xl md:text-3xl" />
                 </a>
 
-                <a href="">
+                <a
+                  href="https://api.whatsapp.com/send?phone=525652700762"
+                  target="_blank"
+                >
                   <FaWhatsappSquare className="text-white text-2xl md:text-3xl" />
-                </a>
-                <a href="">
-                  <FaTiktok className="text-white text-2xl md:text-3xl" />
                 </a>
               </div>
             </ul>
