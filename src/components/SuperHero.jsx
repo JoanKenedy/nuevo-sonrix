@@ -26,8 +26,8 @@ export const SuperHero = ({ bgCompu, bgCel, textCategoria }) => {
                 : { backgroundImage: `url(${bgCompu})` }
             }
           >
-            <div className="phrase absolute left-0 top-0 w-full h-full flex justify-center items-end ">
-              <div className="container-phrase mb-16  ">
+            <div className="phrase absolute left-0 top-0 w-full h-full flex justify-center items-end md:items-center ">
+              <div className="container-phrase mb-16 md:mb-0 ">
                 <h2 className="title-slider text-center text-white text-2xl  uppercase  md:text-5xl frase px-5">
                   {textCategoria}
                 </h2>

@@ -32,7 +32,7 @@ export const AgendarCita = () => {
               </p>
             </div>
           </Link>
-          <Link to="/estetica-dental">
+          <Link to="/diseno-de-sonrisa">
             <div className="item-agenda bg-white flex justify-center flex-col gap-2 items-center px-8 py-4  rounded-md md:absolute md:w-[350px] md:h-[250px]  md:-top-20 md:left-[66.66%] md:hover:scale-110 md:duration-500">
               <img src={Diente} alt="" className="w-20" />
               <h3 className="text-base font-semibold">Transforma tu sonrisa</h3>
