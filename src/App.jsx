@@ -6,13 +6,14 @@ import "./App.css";
 import { Testimonios } from "./pages/Testimonios";
 import { Servicios } from "./pages/Servicios";
 import { OdontologiaGral } from "./pages/OdontologiaGral";
-import { EsteticaDental } from "./pages/EsteticaDental";
+import { DisenoSonrisa } from "./pages/DisenoSonrisa";
 import { Ortodoncia } from "./pages/Ortodoncia";
 import { Endodoncia } from "./pages/Endodoncia";
 import { Protesis } from "./pages/Protesis";
 import { CirugiaOral } from "./pages/CirugiaOral";
 import { Implantologia } from "./pages/Implantologia";
 import { Periodoncia } from "./pages/Periodoncia";
+import { Desmanchamiento } from "./pages/Desmanchamiento";
 
 const router = createBrowserRouter([
   {
@@ -43,8 +44,8 @@ const router = createBrowserRouter([
         element: <OdontologiaGral />,
       },
       {
-        path: "/estetica-dental",
-        element: <EsteticaDental />,
+        path: "/diseno-de-sonrisa",
+        element: <DisenoSonrisa />,
       },
       {
         path: "/ortodoncia",
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
       {
         path: "/periodoncia",
         element: <Periodoncia />,
+      },
+      {
+        path: "/desmanchamiento-y-aclaramiento",
+        element: <Desmanchamiento />,
       },
     ],
   },

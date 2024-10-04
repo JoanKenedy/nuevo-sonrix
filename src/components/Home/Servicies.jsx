@@ -6,6 +6,7 @@ import Servicio5 from "../../assets/protesis.webp";
 import Servicio6 from "../../assets/cirugia.webp";
 import Servicio7 from "../../assets/implantes.webp";
 import Servicio8 from "../../assets/periodoncia.webp";
+import Servicio9 from "../../assets/aclaramiento.jpg";
 import { Link } from "react-router-dom";
 
 export const Servicies = () => {
@@ -18,9 +19,9 @@ export const Servicies = () => {
     },
     {
       id: 2,
-      title: "Éstetica dental",
+      title: "Diseño de sonrisa",
       imgSrc: Servicio2,
-      link: "/estetica-dental",
+      link: "/diseno-de-sonrisa",
     },
     {
       id: 3,
@@ -57,6 +58,12 @@ export const Servicies = () => {
       title: "Periodoncia",
       imgSrc: Servicio8,
       link: "/periodoncia",
+    },
+    {
+      id: 8,
+      title: "Desmanchamiento y Aclaramiento",
+      imgSrc: Servicio9,
+      link: "/desmanchamiento-y-aclaramiento",
     },
   ];
   return (

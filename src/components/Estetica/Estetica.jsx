@@ -6,7 +6,7 @@ export const Estetica = () => {
   return (
     <>
       <SuperHero
-        textCategoria={"Éstetica dental"}
+        textCategoria={"Diseño de sonrisa"}
         bgCompu={Servicio2}
         bgCel={Servicio3}
       />

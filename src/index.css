@@ -234,6 +234,12 @@ input {
   object-fit: cover;
 }
 
+.container-galery {
+  display: grid;
+  grid-gap: 7px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 @media (min-width: 768px) {
   nav {
     background-color: transparent;
@@ -328,5 +334,10 @@ input {
       right: -60px;
       transform: scale(0);
     }
+  }
+  .container-galery {
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: repeat(4, 1fr);
   }
 }

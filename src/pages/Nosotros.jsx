@@ -5,6 +5,7 @@ import { Parrallax } from "../components/Nosotros/Parallax";
 import { Team } from "../components/Nosotros/Team";
 import { CallToAction } from "../components/CallToAction";
 import { ButtonFixed } from "../components/ButtonsFixed";
+import { Galery } from "../components/Nosotros/Galery";
 
 export const Nosotros = () => {
   return (
@@ -13,6 +14,7 @@ export const Nosotros = () => {
       <Fundadores />
       <Parrallax />
       <Team />
+      <Galery />
       <CallToAction />
       <Contacto />
       <ButtonFixed />
