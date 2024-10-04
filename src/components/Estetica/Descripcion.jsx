@@ -8,6 +8,8 @@ export const Descripcion = () => {
               ¿Comó lo hacemos?
             </h2>
             <p className="text-justify ">
+              En Dental Sonrix, es nuestro enfoque dinámico e innovador en el
+              manejo de la estética dental, el que nos diferencia de los demás.
               Contamos con 3 diferentes técnicas, de acuerdo a las necesidades
               de cada paciente para poder lograr tu sonrisa perfecta,
               modificando texturas, color, tamaño y forma.

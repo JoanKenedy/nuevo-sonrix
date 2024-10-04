@@ -65,16 +65,19 @@ export const Galery = () => {
     <>
       <div className="galery pb-5 pt-8">
         <div className="w-[90%] m-auto md:max-w-6xl">
-          <h2 className="text-2xl mb-2 font-semibold md:text-5xl pl-5 md:mb-4">
+          <h2 className="title-slider text-center text-black text-xl  uppercase  md:text-3xl frase my-2">
             Todos somos Dental Sonrix
           </h2>
           <ul className="container-galery ">
             {GALERY.map((image, i) => (
-              <li key={i} className="item-galery overflow-hidden md:rounded-lg">
+              <li
+                key={i}
+                className="item-galery overflow-hidden md:rounded-lg md:hover:scale-95 duration-700"
+              >
                 <img
                   src={image.ImgSrc}
                   alt=""
-                  className="w-full h-full rounded-lg object-cover md:hover:scale-125  duration-1000  "
+                  className="w-full h-full rounded-lg object-cover  "
                 />
               </li>
             ))}
