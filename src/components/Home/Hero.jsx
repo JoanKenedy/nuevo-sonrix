@@ -89,7 +89,7 @@ export const Hero = () => {
               >
                 <div className="phrase absolute left-0 top-0 w-full h-full flex justify-center items-end md:items-center">
                   <div className="container-phrase ">
-                    <h2 className="title-slider text-white text-xl text-center mb-40 uppercase  md:text-5xl frase md:mb-0 ">
+                    <h2 className="title-slider text-white text-2xl text-center mb-60 uppercase  md:text-5xl frase md:mb-0 ">
                       {el.textimg}
                     </h2>
                   </div>
