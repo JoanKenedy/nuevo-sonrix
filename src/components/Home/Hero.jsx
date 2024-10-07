@@ -5,9 +5,9 @@ import "swiper/css/navigation";
 import Slider1 from "../../assets/slider-2.webp";
 import Slider2 from "../../assets/slider-1.webp";
 import Slider3 from "../../assets/slider-3.webp";
-import Slider4 from "../../assets/slider-cel-2.webp";
-import Slider5 from "../../assets/slider-cel-1.webp";
-import Slider6 from "../../assets/slider-cel-3.webp";
+import Slider4 from "../../assets/slider-cel-2.png";
+import Slider5 from "../../assets/slider-cel-1.png";
+import Slider6 from "../../assets/slider-cel-3.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
