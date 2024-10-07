@@ -1,5 +1,5 @@
-import Marisol from "../../assets/dra-marisol.jpg";
-import Diego from "../../assets/dr-diego.jpg";
+import Marisol from "../../assets/dra-marisol.webp";
+import Diego from "../../assets/dr-diego.webp";
 import { IoIosArrowDown } from "react-icons/io";
 import { useState } from "react";
 
@@ -44,15 +44,38 @@ export const Fundadores = () => {
             <div
               className={`${
                 openDrop
-                  ? "h-[120px] overflow-visible opacity-100 "
+                  ? "h-[350px] overflow-visible opacity-100 "
                   : "h-0 overflow-hidden opacity-0"
               } info-curriculum duration-500 md:h-auto md:overflow-visible md:opacity-100 md:px-8`}
             >
               <p className="text-sm text-justify p-2 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                repellat dicta asperiores repellendus ipsum veniam rem totam
-                culpa. Temporibus, molestiae praesentium adipisci corporis optio
-                libero animi dicta ea incidunt soluta!
+                <span className="font-semibold text-cyan-400 text-base md:text-lg">
+                  Soy una odontóloga
+                </span>{" "}
+                comprometida con el bienestar y la salud bucal de mis pacientes.
+                <span className="font-semibold text-cyan-400  text-base md:text-lg">
+                  {" "}
+                  Mi misión es ofrecer
+                </span>{" "}
+                una atención dental excepcional que combine técnica, tecnología
+                y un enfoque humano. Con una{" "}
+                <span className="font-semibold text-cyan-400 text-base md:text-lg">
+                  {" "}
+                  sólida formación
+                </span>{" "}
+                académica y años de experiencia, me dedico a cuidar cada detalle
+                de tu sonrisa.
+              </p>
+              <p className="text-sm text-justify p-2 ">
+                Desde tratamientos preventivos hasta soluciones estéticas
+                personalizadas, mi objetivo es que cada visita sea una
+                experiencia positiva y transformadora, me especializo en ofrecer
+                soluciones innovadoras que no solo mejoran la salud dental, sino
+                que también realzan la confianza en los pacientes.{" "}
+                <span className="font-semibold text-cyan-400 text-base md:text-lg">
+                  Descubre el poder
+                </span>{" "}
+                de una sonrisa saludable con la odontología.
               </p>
             </div>
           </div>
@@ -74,15 +97,34 @@ export const Fundadores = () => {
             <div
               className={`${
                 openDrop
-                  ? "h-[120px] overflow-visible opacity-100  "
+                  ? "h-[350px] overflow-visible opacity-100  "
                   : "h-0 overflow-hidden opacity-0"
               } info-curriculum  duration-500 md:h-auto md:overflow-visible md:opacity-100 md:px-8`}
             >
               <p className="text-sm text-justify p-2  ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                repellat dicta asperiores repellendus ipsum veniam rem totam
-                culpa. Temporibus, molestiae praesentium adipisci corporis optio
-                libero animi dicta ea incidunt soluta!
+                <span className="font-semibold text-cyan-400 text-base md:text-lg">
+                  Soy un odontólogo{" "}
+                </span>{" "}
+                comprometido con la salud bucal y el bienestar de mis pacientes.
+                Con una sólida formación y experiencia, ofreciendo atención
+                dental personalizada, utilizando las últimas técnicas y
+                tecnología para garantizar resultados óptimos y duraderos.{" "}
+                <span className="font-semibold text-cyan-400 text-base md:text-lg">
+                  Mi enfoque
+                </span>{" "}
+                está centrado en brindar una atención de calidad y generar
+                confianza, asegurando una experiencia cómoda y profesional.
+              </p>
+              <p className="text-sm text-justify p-2 ">
+                Creo firmemente en la importancia de la educación en salud
+                dental.{" "}
+                <span className="font-semibold text-cyan-400 text-base md:text-lg">
+                  Me apasiona empoderar
+                </span>{" "}
+                a mis pacientes con el conocimiento necesario para que tomen
+                decisiones informadas sobre su salud. Mi enfoque es integral,
+                buscando no solo resolver problemas dentales, sino también
+                fomentar una relación de confianza y cercanía.
               </p>
             </div>
           </div>

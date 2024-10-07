@@ -1,6 +1,11 @@
-import Ortodoncia1 from "../../assets/carillas/caso-1.png";
-import Ortodoncia2 from "../../assets/carillas/caso-2.png";
-
+import Ortodoncia1 from "../../assets/diseno-sonrisa/caso-1.webp";
+import Ortodoncia2 from "../../assets/diseno-sonrisa/caso-2.webp";
+import Ortodoncia3 from "../../assets/diseno-sonrisa/caso-3.webp";
+import Ortodoncia4 from "../../assets/diseno-sonrisa/caso-4.webp";
+import Ortodoncia5 from "../../assets/diseno-sonrisa/caso-5.webp";
+import Ortodoncia6 from "../../assets/diseno-sonrisa/caso-6.webp";
+import Ortodoncia7 from "../../assets/diseno-sonrisa/caso-7.webp";
+import Ortodoncia8 from "../../assets/diseno-sonrisa/caso-8.webp";
 export const Testimonios = () => {
   const CASO1 = [
     {
@@ -11,6 +16,36 @@ export const Testimonios = () => {
     {
       id: 2,
       image: Ortodoncia2,
+      alt: "Primer caso de éxito",
+    },
+    {
+      id: 3,
+      image: Ortodoncia3,
+      alt: "Primer caso de éxito",
+    },
+    {
+      id: 4,
+      image: Ortodoncia4,
+      alt: "Primer caso de éxito",
+    },
+    {
+      id: 5,
+      image: Ortodoncia5,
+      alt: "Primer caso de éxito",
+    },
+    {
+      id: 6,
+      image: Ortodoncia6,
+      alt: "Primer caso de éxito",
+    },
+    {
+      id: 7,
+      image: Ortodoncia7,
+      alt: "Primer caso de éxito",
+    },
+    {
+      id: 8,
+      image: Ortodoncia8,
       alt: "Primer caso de éxito",
     },
   ];

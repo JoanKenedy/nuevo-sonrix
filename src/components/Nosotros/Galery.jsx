@@ -1,15 +1,15 @@
-import Foto1 from "../../assets/galery-1.jpg";
-import Foto2 from "../../assets/galery-2.jpg";
-import Foto3 from "../../assets/galery-3.jpg";
-import Foto4 from "../../assets/galery-4.jpg";
-import Foto5 from "../../assets/galery-5.jpg";
-import Foto6 from "../../assets/galery-6.jpg";
-import Foto7 from "../../assets/galery-7.jpg";
-import Foto8 from "../../assets/galery-8.jpg";
-import Foto9 from "../../assets/galery-9.jpg";
-import Foto10 from "../../assets/galery-10.jpg";
-import Foto11 from "../../assets/galery-11.jpg";
-import Foto12 from "../../assets/galery-12.jpg";
+import Foto1 from "../../assets/galery-1.webp";
+import Foto2 from "../../assets/galery-2.webp";
+import Foto3 from "../../assets/galery-3.webp";
+import Foto4 from "../../assets/galery-4.webp";
+import Foto5 from "../../assets/galery-5.webp";
+import Foto6 from "../../assets/galery-6.webp";
+import Foto7 from "../../assets/galery-7.webp";
+import Foto8 from "../../assets/galery-8.webp";
+import Foto9 from "../../assets/galery-9.webp";
+import Foto10 from "../../assets/galery-10.webp";
+import Foto11 from "../../assets/galery-11.webp";
+import Foto12 from "../../assets/galery-12.webp";
 export const Galery = () => {
   const GALERY = [
     {

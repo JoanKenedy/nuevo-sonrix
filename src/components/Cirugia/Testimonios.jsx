@@ -1,5 +1,6 @@
 import Ortodoncia1 from "../../assets/operatoria/caso-1.png";
 import Ortodoncia2 from "../../assets/operatoria/caso-2.png";
+import Ortodoncia3 from "../../assets/operatoria/caso-3.png";
 
 export const Testimonios = () => {
   const CASO1 = [
@@ -11,6 +12,11 @@ export const Testimonios = () => {
     {
       id: 2,
       image: Ortodoncia2,
+      alt: "Primer caso de éxito",
+    },
+    {
+      id: 3,
+      image: Ortodoncia3,
       alt: "Primer caso de éxito",
     },
   ];

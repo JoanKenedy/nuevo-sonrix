@@ -1,4 +1,4 @@
-import Back from "../../assets/fondo-clinica.jpg";
+import Back from "../../assets/fondo-clinica.webp";
 export const Parrallax = () => {
   return (
     <>
@@ -13,7 +13,7 @@ export const Parrallax = () => {
           <p className="text-justify text-sm md:text-lg">
             <span className="text-center title-slider text-black text-xl  uppercase  md:text-3xl frase">
               EN Dental sonrix
-            </span>{" "}
+            </span>{" "}{" "}
             estamos avalados y certificados en nuestra especialidad. Estamos
             para brindarte una atención personalizada y un servicio integral,
             para lograr que tu sonrisa se vea como la imaginas.Nos mantenemos
