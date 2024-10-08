@@ -1,15 +1,20 @@
-import Foto1 from "../../assets/galery-1.webp";
-import Foto2 from "../../assets/galery-2.webp";
-import Foto3 from "../../assets/galery-3.webp";
-import Foto4 from "../../assets/galery-4.webp";
-import Foto5 from "../../assets/galery-5.webp";
-import Foto6 from "../../assets/galery-6.webp";
-import Foto7 from "../../assets/galery-7.webp";
-import Foto8 from "../../assets/galery-8.webp";
-import Foto9 from "../../assets/galery-9.webp";
-import Foto10 from "../../assets/galery-10.webp";
-import Foto11 from "../../assets/galery-11.webp";
-import Foto12 from "../../assets/galery-12.webp";
+import Foto1 from "../../assets/somos-sonrix/galery-1.webp";
+import Foto2 from "../../assets/somos-sonrix/galery-2.webp";
+import Foto3 from "../../assets/somos-sonrix/galery-3.webp";
+import Foto4 from "../../assets/somos-sonrix/galery-4.webp";
+import Foto5 from "../../assets/somos-sonrix/galery-5.webp";
+import Foto6 from "../../assets/somos-sonrix/galery-6.webp";
+import Foto7 from "../../assets/somos-sonrix/galery-7.webp";
+import Foto8 from "../../assets/somos-sonrix/galery-8.webp";
+import Foto9 from "../../assets/somos-sonrix/galery-9.webp";
+import Foto10 from "../../assets/somos-sonrix/galery-17.webp";
+import Foto11 from "../../assets/somos-sonrix/galery-11.webp";
+import Foto12 from "../../assets/somos-sonrix/galery-12.webp";
+import Foto13 from "../../assets/somos-sonrix/galery-13.webp";
+import Foto14 from "../../assets/somos-sonrix/galery-14.webp";
+import Foto15 from "../../assets/somos-sonrix/galery-15.webp";
+import Foto16 from "../../assets/somos-sonrix/galery-16.webp";
+
 export const Galery = () => {
   const GALERY = [
     {
@@ -59,6 +64,22 @@ export const Galery = () => {
     {
       id: 12,
       ImgSrc: Foto12,
+    },
+    {
+      id: 13,
+      ImgSrc: Foto13,
+    },
+    {
+      id: 14,
+      ImgSrc: Foto14,
+    },
+    {
+      id: 15,
+      ImgSrc: Foto15,
+    },
+    {
+      id: 16,
+      ImgSrc: Foto16,
     },
   ];
   return (
