@@ -43,11 +43,6 @@ export const Header = () => {
       name: "Testimonios",
       link: "/testimonios",
     },
-    {
-      id: 5,
-      name: "Contacto",
-      link: "#contacto",
-    },
   ];
   return (
     <>

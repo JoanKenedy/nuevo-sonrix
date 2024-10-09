@@ -12,14 +12,16 @@ export const About = () => {
               Experiencia, confort y talento humano.
             </h4>
             <p className="text-justify text-sm md:text-base mb-2 ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              quibusdam sunt rem repudiandae iste itaque aspernatur
-              exercitationem doloremque fugiat reiciendis ipsam, laudantium
-              perferendis earum nulla consectetur at quasi neque dicta aperiam!
-              Expedita, eligendi vel! Eligendi cum beatae repellendus?
+              Somos una clínica dental vanguardista y actualizada en los últimos
+              conceptos de la odontología, permitiéndonos ofrecer tratamientos
+              innovadores y estéticos, devolviendo la salud y función de las
+              estructuras orales. Trabajando de la mano con un equipo de
+              especialistas, ofreciendo la más alta calidad en cada uno de
+              nuestros servicios. Con un enfoque en odontología estética.
             </p>
             <a
-              href=""
+              href="https://api.whatsapp.com/send?phone=525652700762"
+              target="_blank"
               className="bg-black text-white text-center inline-block rounded-md w-36 py-2 text-base md:py-2 md:w-40"
             >
               Contacto

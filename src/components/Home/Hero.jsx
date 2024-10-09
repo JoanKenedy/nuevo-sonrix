@@ -55,50 +55,46 @@ export const Hero = () => {
   ];
   return (
     <>
-      <div className="hero ">
-        <div className="container-slider-hero ">
-          <Swiper
-            breakpoints={{
-              320: {
-                slidesPerView: 1,
-                spaceBetween: 15,
-              },
-              678: {
-                slidesPerView: 1,
-                spaceBetween: 15,
-              },
-            }}
-            freeMode={true}
-            pagination={{
-              clickable: true,
-            }}
-            modules={[Navigation, Pagination, Mousewheel, Keyboard, EffectFade]}
-            effect="fade"
-            navigation={true}
-            className="w-screen h-full"
+      <Swiper
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
+          678: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
+        }}
+        freeMode={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Navigation, Pagination, Mousewheel, Keyboard, EffectFade]}
+        effect="fade"
+        navigation={true}
+        className="w-screen h-full"
+      >
+        {SliderHero.map((el, i) => (
+          <SwiperSlide
+            key={i}
+            className=" swiper-container relative bg-cover  "
+            style={
+              width < mobile
+                ? { backgroundImage: `url(${el.imgCel})` }
+                : { backgroundImage: `url(${el.Img})` }
+            }
           >
-            {SliderHero.map((el, i) => (
-              <SwiperSlide
-                key={i}
-                className=" swiper-container relative bg-cover  "
-                style={
-                  width < mobile
-                    ? { backgroundImage: `url(${el.imgCel})` }
-                    : { backgroundImage: `url(${el.Img})` }
-                }
-              >
-                <div className="phrase absolute left-0 top-0 w-full h-full flex justify-center items-end md:items-center">
-                  <div className="container-phrase ">
-                    <h2 className="title-slider text-white text-2xl text-center mb-60 uppercase  md:text-5xl frase md:mb-0 ">
-                      {el.textimg}
-                    </h2>
-                  </div>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
-      </div>
+            <div className="phrase absolute left-0 top-0 w-full h-full flex justify-center items-end md:items-center">
+              <div className="container-phrase ">
+                <h2 className="title-slider text-white text-2xl text-center mb-60 uppercase  md:text-5xl frase md:mb-0 ">
+                  {el.textimg}
+                </h2>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </>
   );
 };

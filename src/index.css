@@ -85,7 +85,7 @@ nav {
 .swiper-button-next:active,
 .swiper-button-next::after {
   color: white !important;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: bold;
 
   transition: all 0.7s;
@@ -255,31 +255,6 @@ input {
     transition: all 1s ease-in;
   }
 
-  .swiper-button-next:active,
-  .swiper-button-next::after {
-    color: white !important;
-    font-size: 28px;
-    font-weight: bold;
-    transform: translateX(40px);
-    transition: all 0.7s;
-  }
-
-  .swiper-button-prev::after,
-  .swiper-button-prev:active {
-    color: white !important;
-    font-size: 25px;
-    font-weight: 700;
-    transform: translateX(-40px);
-    transition: all 0.7s;
-  }
-  .swiper:hover .swiper-button-next::after {
-    transition: all 0.7s;
-    transform: translateX(-20px);
-  }
-  .swiper:hover .swiper-button-prev::after {
-    transition: all 0.7s;
-    transform: translateX(0px);
-  }
   .swiper-horizontal > .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: 20px;
@@ -339,5 +314,37 @@ input {
     display: grid;
     grid-gap: 7px;
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .swiper-button-next:active,
+  .swiper-button-next::after {
+    color: white !important;
+    font-size: 25px;
+    font-weight: bold;
+    transform: translateX(40px);
+    transition: all 0.7s;
+  }
+  .swiper:hover .swiper-button-next {
+    transform: translateX(-20px);
+  }
+  .swiper:hover .swiper-button-next::after {
+    transform: translateX(0px);
+    transition: all 0.7s;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-prev:active {
+    color: white !important;
+    font-size: 25px;
+    font-weight: 700;
+    transform: translateX(-40px);
+    transition: all 0.7s;
+  }
+  .swiper:hover .swiper-button-prev,
+  .swiper:hover .swiper-button-prev::after {
+    transition: all 0.7s;
+    transform: translateX(0px);
   }
 }
