@@ -8,7 +8,7 @@ export const Formulario = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_vjsgcgu", "template_6zaimc5", form.current, {
+      .sendForm("service_dtp7hrw", "template_6zaimc5", form.current, {
         publicKey: "Ci4SR9bW8b-kMWaQk",
       })
       .then(
