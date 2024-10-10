@@ -48,11 +48,11 @@ export const AgendarCita = () => {
             isOpenModal ? "scale-100" : "scale-0"
           } modal-contacto duration-700`}
         >
-          <RiCloseLargeLine
-            className="absolute z-30 text-white top-4 right-4 font-semibold text-2xl md:top-4 "
-            onClick={() => setIsOpenModal(!isOpenModal)}
-          />
           <div className="container-modal w-[85%]  m-auto relative md:w-[35%]">
+            <RiCloseLargeLine
+              className="absolute z-8 text-black top-4 right-4 font-semibold text-2xl md:top-4 "
+              onClick={() => setIsOpenModal(!isOpenModal)}
+            />
             <Formulario />
           </div>
         </div>
