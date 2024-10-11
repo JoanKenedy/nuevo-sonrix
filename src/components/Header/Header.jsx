@@ -43,6 +43,16 @@ export const Header = () => {
       name: "Testimonios",
       link: "/testimonios",
     },
+    {
+      id: 4,
+      name: "Promociones",
+      link: "/promociones",
+    },
+    {
+      id: 4,
+      name: "Contacto",
+      link: "/contacto",
+    },
   ];
   return (
     <>

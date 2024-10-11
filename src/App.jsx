@@ -14,6 +14,8 @@ import { CirugiaOral } from "./pages/CirugiaOral";
 import { Implantologia } from "./pages/Implantologia";
 import { Periodoncia } from "./pages/Periodoncia";
 import { Desmanchamiento } from "./pages/Desmanchamiento";
+import { Promociones } from "./pages/Promociones";
+import { Contactos } from "./pages/Contactos";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +40,14 @@ const router = createBrowserRouter([
       {
         path: "/testimonios",
         element: <Testimonios />,
+      },
+      {
+        path: "/promociones",
+        element: <Promociones />,
+      },
+      {
+        path: "/contacto",
+        element: <Contactos />,
       },
       {
         path: "/odontologia-general",
