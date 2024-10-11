@@ -3,7 +3,7 @@ export const About = () => {
   return (
     <>
       <div className="about">
-        <div className="container-about py-10 px-5 flex flex-col-reverse gap-5 md:flex-row-reverse md:m-auto md:md:max-w-7xl md:py-16">
+        <div className="container-about py-10 px-5 flex flex-col-reverse gap-5 md:flex-row-reverse md:m-auto md:max-w-7xl md:py-16">
           <div className="item-about md:px-20 md:flex md:flex-col md:justify-center md:items-center md:gap-2  flex flex-col  ">
             <h3 className=" title-about md:text-4xl uppercase   ">
               Dental Sonrix

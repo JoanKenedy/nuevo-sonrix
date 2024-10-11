@@ -69,7 +69,7 @@ export const Servicies = () => {
   return (
     <>
       <section
-        className="servicios w-full py-8 px-5 md:pt-12 md:pb-4 "
+        className="servicios w-full pt-8 pb-4 px-5 md:pt-12 md:pb-4 "
         id="servicios"
       >
         <h2 className="text-2xl font-bold text-center uppercase md:text-3xl">

@@ -56,7 +56,7 @@ export const Instalaciones = () => {
   ];
   return (
     <>
-      <div className="instalaciones">
+      <div className="instalaciones pt-2">
         <h2 className="text-2xl font-bold text-center uppercase md:text-3xl">
           Instalaciones
         </h2>
