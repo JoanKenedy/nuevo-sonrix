@@ -45,12 +45,14 @@ export const Formulario = () => {
 
         <div className="flex flex-col gap-1 md:w-[97%]">
           <label htmlFor="" className="text-sm">
-            Nombre
+            Nombre y Apellidos
           </label>
           <input
             type="text"
             name="user_nombre"
             className="border-gray-300 rounded-lg "
+            required
+            minlength="5"
           />
         </div>
         <div className="flex flex-col gap-1 md:w-[48%]">
@@ -61,6 +63,9 @@ export const Formulario = () => {
             type="tel"
             name="user_telefono"
             className=" border-gray-300 rounded-lg "
+            minlength="10"
+            maxlength="10"
+            required
           />
         </div>
         <div className="flex flex-col gap-1 md:w-[48%]">
@@ -71,6 +76,7 @@ export const Formulario = () => {
             id=""
             name="user_cliente"
             className="border-gray-300 rounded-lg  "
+            required
           >
             <option value="adulto">Adulto</option>
             <option value="infantil">Infantil</option>
@@ -84,11 +90,12 @@ export const Formulario = () => {
             id=""
             name="user_tipoCita"
             className="border-gray-300 rounded-lg "
+            required
           >
             <option value="valoracion">Valoración</option>
             <option value="urgencia">Urgencia</option>
             <option value="limpieza">Limpieza dental</option>
-            <option value="diseno">Diseño de sonrisa</option>
+            <option value="diseno sonrisa">Diseño de sonrisa</option>
             <option value="otro">Otro</option>
           </select>
         </div>
@@ -100,6 +107,7 @@ export const Formulario = () => {
             id=""
             name="user_horario"
             className="border-gray-300 rounded-lg  "
+            required
           >
             <option value="8:00am a 12:00pm">8:00am a 12:00pm</option>
             <option value="12:00pm a 16:00pm">12:00pm a 16:00pm</option>
@@ -113,7 +121,10 @@ export const Formulario = () => {
           <textarea
             id=""
             name="user_mensaje"
-            className="border-gray-300 rounded-lg "
+            className="border-gray-300 rounded-lg text-xs "
+            required
+            minlength="10"
+            placeholder="Aquí puedes esribir tus dudas, preguntas o simplemente un mensaje"
           ></textarea>
         </div>
 
