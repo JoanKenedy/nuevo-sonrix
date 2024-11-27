@@ -3,7 +3,6 @@ import Promo2 from "../../assets/promo-2.jpg";
 import Promo3 from "../../assets/promo-buen-fin-1.jpg";
 import Promo4 from "../../assets/promo-4.jpg";
 
-
 export const Promocion = () => {
   return (
     <>
@@ -11,10 +10,11 @@ export const Promocion = () => {
         <h2 className="text-2xl font-bold text-center uppercase md:text-3xl mb-3">
           Nuestras promociones
         </h2>
-        <div className="container-promos w-[90%] m-auto grid gap-3 md:grid-cols-2 md:max-w-6xl">
-        <figure>
+        <div className="container-promos w-[90%] m-auto grid gap-3 md:grid-cols-3 md:max-w-6xl">
+          
+          <figure>
             <img
-              src={Promo3}
+              src={Promo4}
               alt=""
               className="max-w-[100%] md:hover:scale-95 duration-500"
             />
@@ -28,19 +28,11 @@ export const Promocion = () => {
           </figure>
           <figure>
             <img
-              src={Promo4}
-              alt=""
-              className="max-w-[100%] md:hover:scale-95 duration-500"
-            />
-          </figure>
-          <figure>
-            <img
               src={Promo2}
               alt=""
               className="max-w-[100%] md:hover:scale-95 duration-500"
             />
           </figure>
-          
         </div>
       </section>
     </>
