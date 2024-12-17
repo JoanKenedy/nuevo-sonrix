@@ -1,7 +1,6 @@
 import Promo1 from "../../assets/promo-1.jpg";
-import Promo2 from "../../assets/promo-2.jpg";
-import Promo3 from "../../assets/promo-buen-fin-1.jpg";
-import Promo4 from "../../assets/promo-4.jpg";
+import Promo2 from "../../assets/promo-4.jpg";
+import Promo4 from "../../assets/promo-2.jpg";
 
 export const Promocion = () => {
   return (
@@ -11,7 +10,6 @@ export const Promocion = () => {
           Nuestras promociones
         </h2>
         <div className="container-promos w-[90%] m-auto grid gap-3 md:grid-cols-3 md:max-w-6xl">
-          
           <figure>
             <img
               src={Promo4}
