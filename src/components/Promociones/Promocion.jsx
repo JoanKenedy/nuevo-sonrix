@@ -1,6 +1,6 @@
 import Promo1 from "../../assets/promo-1.jpg";
-import Promo2 from "../../assets/promo-4.jpg";
-import Promo4 from "../../assets/promo-2.jpg";
+import Promo2 from "../../assets/promo-2.jpg";
+import Promo4 from "../../assets/promo-3.jpg";
 
 export const Promocion = () => {
   return (
